@@ -1,0 +1,23 @@
+package day05ifelseifnestedifternary;
+
+import java.util.Scanner;
+
+public class Ternary02 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter an integer");
+		int num = scan.nextInt();
+		
+		String result = num%2==0 ? "Even" : "Odd";
+      System.out.println("ternary " + result);
+      
+      
+      
+      scan.close();
+      
+      
+      
+	}
+
+}
